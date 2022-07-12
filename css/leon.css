@@ -229,19 +229,19 @@ body {
         font-size: 80px;
     }
     .services h2 + p {
-        margin-top: -30px;
-        font-size: 15px;
+        margin-top: -30px !important;
+        font-size: 15px !important;
     }
     .services .content .col .srv {
         text-align: center;
         flex-direction: column;
     }
     .services .content .col p {
-        text-align: center !important;
+        text-align: center;
     }
 }
 
-.services p {
+.services h2 + p {
     color: #575757;
     font-size: 25px;
     text-align: center;
@@ -282,9 +282,7 @@ body {
 .services .content .col p {
     color: #4d4c4c;
     font-size: 15px;
-    text-align: left;
     line-height: 1.6;
-    margin-top: 20px;
 }
 
 .services .content .shape {
