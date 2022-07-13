@@ -422,6 +422,7 @@ html {
         flex-direction: column;
         gap: 30px;
         align-items: center;
+        text-align: center;
     }
     .about .about-content .col .img::after {
         display: none;
@@ -443,9 +444,11 @@ html {
 }
 
 .about .about-content .col .text hr {
-    border-color: var(--main-color);
+    background-color: var(--main-color);
+    height: 2px;
     width: 50%;
     display: inline-block;
+    border: none;
 }
 
 .about .about-content .col p:last-child {
